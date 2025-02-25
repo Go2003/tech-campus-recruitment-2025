@@ -3,7 +3,7 @@ import os
 import gzip
 import re
 
-def extract_logs(log_file, target_date, output_dir="output"):
+def extract_logs(log_file, target_date, output_dir="../output"):
     """
     Extracts logs from a given log file for a specific date and reformats them to match the expected format.
     
